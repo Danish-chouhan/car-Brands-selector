@@ -1,0 +1,70 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cntr1 {
+    display: flex;
+}
+
+.cntr1 input {
+    height: 25px;
+    width: 300px;
+    margin: 25px 0px 30px 60px;
+}
+
+.cntr2 {
+    margin-bottom: 30px;
+}
+
+.inputs {
+    display: flex;
+}
+
+.inputs input {
+    position: relative;
+}
+
+.inputs img {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 640px;
+    top: 30px;
+}
+
+#checkboxes {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 136, 255);
+    position: absolute;
+    left: 370px;
+    top: 70px;
+    z-index: 1;
+}
+
+#check1,
+#check2,
+#check3,
+#check4,
+#check5,
+#check6,
+#check7 {
+    margin-top: 5px;
+}
+
+.h1tags :first-child {
+    position: relative;
+}
+
+.h1tags :nth-child(2) {
+    position: absolute;
+    top: 115px;
+    left: 160px;
+}
+
+#h2h {
+    font-size: 20px;
+    margin: 40px 10px 10px 10px;
+    text-align: justify;
+    cursor: url("./img/cursor.png");
+}
